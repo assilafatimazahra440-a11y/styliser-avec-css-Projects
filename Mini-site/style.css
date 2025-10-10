@@ -1,0 +1,180 @@
+:root {
+    --pink: #f3b6c2;
+    --beige: #f5e8d3;
+    --navy: #22313f;
+    --lightblue: #d9e6f2;
+    --grey: #dcdcdc;
+    --white: #ffffff;
+    --text: #444;
+  }
+  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--lightblue);
+    color: var(--text);
+  
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background: linear-gradient(to right, var(--pink), var(--beige));
+    padding: 30px;
+    list-style: none;
+  }
+  a{
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+  }
+  a:hover{
+  border-bottom: 2px solid var(--text);
+    
+    
+  }
+  .maindiv{
+    background: var(--pink);
+    text-align: center;
+    padding: 4rem;
+  }
+  header{
+    background-color: var(--pink);
+    text-align: center;
+  }
+  h1{
+    font-family: "Playfair Display" , serif;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    transition: all 0.4s linear;
+    text-align: center;
+    background-color: var(--pink);
+    padding: 20px;
+  }
+  h1:hover{
+    transform: scale(1.1);
+    color: var(--navy);
+    text-shadow: 0 0 12px var(--lightblue);
+  }
+  .img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 3rem;
+    border-radius: 50%;
+    border: 4px solid var(--white);
+  }
+  h2{
+    margin-bottom: 3rem;
+    color: var(--white);
+    text-shadow: 0 0 15px var(--navy);
+  }
+  .premier{
+    background-color: #fad0d8;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 12px var(--white);
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+    padding: 50px 10%;
+    
+  }
+  .section1 {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 15px var(--pink);
+  }
+  .objectif{
+    color: var(--text);
+    text-shadow: none;
+  }
+  .section1 li{
+    line-height: 2;
+  
+  }
+  section{
+    background: var(--white);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px 20px;
+    box-shadow: 0 4px 10px var(--pink);
+  }
+  img{
+    width: 250px;
+    height: 250;
+    margin-bottom: 30px;
+    transition: all 0.4s linear;
+  }
+  img:hover{
+    transform: scale(1.2);
+  }
+  .cert-card{
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid rgb(202, 198, 198);
+  box-shadow: 0 0 4px var(--navy);
+  border-radius: 20px;
+  text-align: center;
+  line-height: 2;
+  }
+  .btn-cert{
+    background-color: var(--navy);
+    color: var(--white);
+    padding: 8px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  .btn-cert:hover{
+    background-color: var(--pink);
+    border-bottom: 2px solid var(--text);
+  
+  }
+  .h2{
+    text-shadow: 0 0 5px var(--pink);
+    color: var(--text);
+  }
+  p{
+    line-height: 1.7;
+  }
+  
+  footer{
+    height: 40%;
+    background: linear-gradient(to right, var(--pink), var(--beige));
+    padding: 20px;
+    text-align: center;
+  
+  }
+  fieldset{
+    padding: 30px;
+  
+  }
+  strong{
+    color: var(--pink);
+  }
+  input,textarea{
+    padding: 10px;
+    border-radius: 30Px;
+    border: 2px solid var(--grey);
+  }
+  input,textarea:hover{
+    color: var(--pink);
+  
+  }
+  button{
+    padding:15px;
+    color: var(--navy);
+    background-color: var(--pink);
+    border: 0;
+    border-radius: 50px;
+  }
+  button:hover{
+    background-color: var(--navy);
+    color: var(--white);
+  }
+    

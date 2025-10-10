@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contactez-Moi</h1>
+    <nav class="mainNav">
+        <ul>
+            <li><a href="Accueil.html">Accueil</a></li>
+            <li><a href="CV.html">CV</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section >
+            <h2 class="h2">Mes Informations</h2>
+            <p><strong>Email : </strong><a href="mailto:assilafatimazahra440@example.com" target="_blank">assilafatimazahra440@gmail.com</a></p>
+            <p><strong>GitHub : </strong> <a href="https://github.com/assilafatimazahra440-a11y" target="_blank">assilafatimazahra440-a11y</a></p>
+            <p><strong>Adress:</strong> Tanger,Maroc</p>
+        </section>
+        <section>
+            <h2 class="h2">Formulaire de Contact</h2>
+            <form action="">
+            <fieldset>
+                <legend>Vos informations</legend>
+                <label for="email">Email :
+                    <input type="email" name="email" required id="email">
+                  </label>
+                  <label for="nom">Nom:
+                    <input type="text" name="Nom" id="nom" required>
+                  </label>
+                  <label for="tele">Téléphone :
+                    <input type="tel" name="telephone" id="tele" pattern="[0-9]{10}" required>
+                  </label>
+                  <textarea name="Message" id="" cols="15" rows="5" placeholder="vos messages"></textarea>
+                  <button type="submit">Envoyer</button>
+            </fieldset>
+            </form>
+            </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Mon Mini site</p>
+    </footer>
+    
+</body>
+</html>
