@@ -79,23 +79,25 @@
   }
   
   main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
-    padding: 50px 10%;
-    
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 40px; */
+    display: flex;
+    flex-direction: column;
   }
-  .section1 {
+  .section {
     background: var(--white);
     border-radius: 20px;
     padding: 30px;
     box-shadow: 0 4px 15px var(--pink);
   }
+
   .objectif{
     color: var(--text);
-    text-shadow: none;
+     text-shadow: none;
   }
-  .section1 li{
-    line-height: 2;
+  .section li{
+    line-height: 2;  
   
   }
   section{
@@ -104,7 +106,9 @@
     padding: 30px;
     margin: 30px 20px;
     box-shadow: 0 4px 10px var(--pink);
+    text-align: center;
   }
+  
   img{
     width: 250px;
     height: 250;
